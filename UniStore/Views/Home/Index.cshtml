@@ -1,0 +1,18 @@
+﻿@{
+    int idade = 19 + 7;
+    ViewData["Idade"] = idade;
+    ViewData["Title"] = "Página inicial!";
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        @ViewData["Title"]
+    </h1>
+    <p>
+        Idade do usuário: @ViewData["Idade"]
+    </p>
+    <p>
+        E-mail do usuário: @ViewData["Email"]
+    </p>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
