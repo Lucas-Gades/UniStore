@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UniStore.Data;
 
@@ -11,9 +12,10 @@ using UniStore.Data;
 namespace UniStore.Migrations
 {
     [DbContext(typeof(UniStoreContext))]
-    partial class UniStoreContextModelSnapshot : ModelSnapshot
+    [Migration("20250428225552_Seller_SalesRecord")]
+    partial class Seller_SalesRecord
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
