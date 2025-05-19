@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection.Metadata.Ecma335;
 using UniStore.Data;
 using UniStore.Models;
@@ -18,7 +19,8 @@ namespace UniStore.Controllers
         public IActionResult Index()
         {
             /*List<Seller> sellers = _context.Seller.ToList();*/
-            var sellers = _context.Seller.ToList();
+            //var sellers = _context.Seller.ToList();
+            var sellers = _context.Seller.Include("Department").ToList();
             return View(sellers);
         }
 

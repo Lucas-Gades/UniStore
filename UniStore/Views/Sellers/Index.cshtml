@@ -4,12 +4,14 @@
 *@
 @{
     ViewData["Title"] = "Sellers";
-}
+} 
 
 
 <h1>Vendedores!</h1>
 
-<table>
+<a asp-action="Create">Create a new Seller</a>
+
+<table class="table">
     <thead>
         <tr>
             <th>
@@ -25,13 +27,13 @@
                 @Html.DisplayNameFor(model => model.Salary)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DepartmentId)
+                @Html.DisplayNameFor(model => model.Department.Name)
             </th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
-        {
+        { 
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.Name)
@@ -46,7 +48,7 @@
                     @Html.DisplayFor(modelItem => item.Salary)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.DepartmentId)
+                    @Html.DisplayFor(modelItem => item.Department.Name)
                 </td>
             </tr>
         }
