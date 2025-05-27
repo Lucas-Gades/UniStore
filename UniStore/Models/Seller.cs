@@ -1,4 +1,6 @@
-﻿namespace UniStore.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace UniStore.Models
 {
     public class Seller
     {

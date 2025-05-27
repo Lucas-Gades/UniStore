@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata.Ecma335;
 using UniStore.Data;
 using UniStore.Models;
 using UniStore.Models.ViewModels;
@@ -50,6 +49,80 @@ namespace UniStore.Controllers
             _context.Add(seller);
             //Confirma/Persiste as alterações na base de dados
             _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Details(int? id)
+        {
+            if (id == null) {
+                return NotFound();
+            }
+
+            Seller seller = _context.Seller.Include("Department").FirstOrDefault(x => x.Id == id);
+
+            if (seller == null) {
+                return NotFound();
+            }
+
+            return View(seller);
+        }
+
+        public IActionResult Delete(int id) {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            Seller seller = _context.Seller.Include("Department").FirstOrDefault(x => x.Id == id);
+
+            if (seller == null)
+            {
+                return NotFound();
+            }
+
+            return View(seller);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int? id) {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            
+            Seller seller = _context.Seller.FirstOrDefault(s => s.Id == id);
+            
+            if (seller == null) { 
+                return NotFound();
+            }
+
+            _context.Remove(seller);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Edit(int id)
+        {
+            //Seller seller
+            var seller = 
+                _context.Seller.FirstOrDefault(s => s.Id == id);
+            if (seller == null)
+            {
+                return NotFound();
+            }
+
+            SellerFormViewModel model = new SellerFormViewModel();
+            model.Seller = seller;
+            model.Departments = _context.Department.ToList();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Seller seller) { 
+            _context.Update(seller);
+            _context.SaveChanges();
+
             return RedirectToAction("Index");
         }
 
