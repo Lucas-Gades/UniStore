@@ -20,7 +20,14 @@ namespace UniStore.Controllers
             /*List<Seller> sellers = _context.Seller.ToList();*/
             //var sellers = _context.Seller.ToList();
             var sellers = _context.Seller.Include("Department").ToList();
-            return View(sellers);
+            //Filtra os vendedores com salários menores que 15k
+            var trainees = sellers.Where(s => s.Salary <= 15000);
+
+            //
+            var sellersAscNameSalary = 
+                sellers.OrderBy(s => s.Name).ThenBy(s => s.Salary);
+           
+            return View(sellersAscNameSalary);
         }
 
         [HttpGet]
@@ -126,5 +133,15 @@ namespace UniStore.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult Report() { 
+            //Popular uma lista de objetos Seller, trazendos as informações
+            //do departamento de cada vendedor
+            //List<Seller> sellers = 
+            //    _context.Seller.Include("Department")
+            //    .Where(s => s.Department.Name == "Cama").ToList();
+            //ViewData[]
+
+            return View();
+        }
     }
 }
