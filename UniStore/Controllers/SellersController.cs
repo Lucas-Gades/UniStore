@@ -133,14 +133,22 @@ namespace UniStore.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Report() { 
+        public IActionResult Report() {
             //Popular uma lista de objetos Seller, trazendos as informações
             //do departamento de cada vendedor
             //List<Seller> sellers = 
             //    _context.Seller.Include("Department")
             //    .Where(s => s.Department.Name == "Cama").ToList();
-            //ViewData[]
+            
+            List<Seller> sellers =
+                _context.Seller.Include("Department").ToList();
 
+            //Soma o salário dos vendedores
+            ViewData["FolhaPagamento"] = sellers.Sum(s => s.Salary);
+            ViewData["Maior"] = sellers.Max(s => s.Salary);
+            ViewData["Menor"] = sellers.Min(s => s.Salary);
+            ViewData["Media"] = sellers.Average(s => s.Salary);
+            ViewData["Ricos"] = sellers.Count(s => s.Salary > 15000);
             return View();
         }
     }
