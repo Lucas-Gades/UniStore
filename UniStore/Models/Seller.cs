@@ -28,5 +28,10 @@ namespace UniStore.Models
 
         public List<SalesRecord> Sales { get; set; } = 
             new List<SalesRecord>();
+
+        public double TotalSales(DateTime initial, DateTime final) {
+            return Sales.Where(sr => sr.Date >= initial && sr.Date <= final)
+                .Sum(sr => sr.Price);
+        }
     }
 }

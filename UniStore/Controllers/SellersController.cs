@@ -149,6 +149,12 @@ namespace UniStore.Controllers
             ViewData["Menor"] = sellers.Min(s => s.Salary);
             ViewData["Media"] = sellers.Average(s => s.Salary);
             ViewData["Ricos"] = sellers.Count(s => s.Salary > 15000);
+
+            var specialSellers = _context.Seller
+                    .FromSqlRaw("Select * FROM Seller Where Id = 11").ToList();
+
+            ViewData["Info"] = specialSellers.Where(ss => ss.Id == 11).Select(s => s.Name);
+
             return View();
         }
     }
