@@ -153,7 +153,7 @@ namespace UniStore.Controllers
             var specialSellers = _context.Seller
                     .FromSqlRaw("Select * FROM Seller Where Id = 11").ToList();
 
-            ViewData["Info"] = specialSellers.Where(ss => ss.Id == 11).Select(s => s.Name);
+            ViewData["Info"] = specialSellers.Where(ss => ss.Id == 11).Select(s => s.Name).FirstOrDefault();
 
             return View();
         }
