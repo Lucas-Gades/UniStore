@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UniStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UniStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T22:36:38.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

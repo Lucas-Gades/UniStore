@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\views\\salesrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\views\\salesrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\controllers\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\controllers\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\models\\salesrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\models\\salesrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\controllers\\salesrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\controllers\\salesrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\views\\sellers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\views\\sellers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|d:\\onedrive-msfft\\onedrive - msft\\desktop\\framework i\\unistore\\unistore\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8AF1DE9-8709-4434-A47F-88EEE54CE034}|UniStore\\UniStore.csproj|solutionrelative:unistore\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SellersController.cs",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Controllers\\SellersController.cs",
+              "RelativeDocumentMoniker": "UniStore\\Controllers\\SellersController.cs",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Controllers\\SellersController.cs",
+              "RelativeToolTip": "UniStore\\Controllers\\SellersController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:08:12.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Models\\Seller.cs",
+              "RelativeDocumentMoniker": "UniStore\\Models\\Seller.cs",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Models\\Seller.cs",
+              "RelativeToolTip": "UniStore\\Models\\Seller.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:03:17.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "UniStore\\Models\\Product.cs",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Models\\Product.cs",
+              "RelativeToolTip": "UniStore\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:03:06.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "UniStore\\Models\\Department.cs",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Models\\Department.cs",
+              "RelativeToolTip": "UniStore\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:02:57.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "UniStore\\Views\\Products\\Create.cshtml",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "UniStore\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T23:02:10.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\Sellers\\Create.cshtml",
+              "RelativeDocumentMoniker": "UniStore\\Views\\Sellers\\Create.cshtml",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\Sellers\\Create.cshtml",
+              "RelativeToolTip": "UniStore\\Views\\Sellers\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T23:02:00.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesRecordsController.cs",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Controllers\\SalesRecordsController.cs",
+              "RelativeDocumentMoniker": "UniStore\\Controllers\\SalesRecordsController.cs",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Controllers\\SalesRecordsController.cs",
+              "RelativeToolTip": "UniStore\\Controllers\\SalesRecordsController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:00:37.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\SalesRecords\\Create.cshtml",
+              "RelativeDocumentMoniker": "UniStore\\Views\\SalesRecords\\Create.cshtml",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\SalesRecords\\Create.cshtml",
+              "RelativeToolTip": "UniStore\\Views\\SalesRecords\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T23:00:20.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesRecord.cs",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Models\\SalesRecord.cs",
+              "RelativeDocumentMoniker": "UniStore\\Models\\SalesRecord.cs",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Models\\SalesRecord.cs",
+              "RelativeToolTip": "UniStore\\Models\\SalesRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:58:27.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\Departments\\Create.cshtml",
+              "RelativeDocumentMoniker": "UniStore\\Views\\Departments\\Create.cshtml",
+              "ToolTip": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\Views\\Departments\\Create.cshtml",
+              "RelativeToolTip": "UniStore\\Views\\Departments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T22:58:11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

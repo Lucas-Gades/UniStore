@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ROMULOREISDEOLIVEIRA\\source\\repos\\UniStore\\UniStore\\UniStore.csproj": {}
+    "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\UniStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ROMULOREISDEOLIVEIRA\\source\\repos\\UniStore\\UniStore\\UniStore.csproj": {
+    "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\UniStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ROMULOREISDEOLIVEIRA\\source\\repos\\UniStore\\UniStore\\UniStore.csproj",
+        "projectUniqueName": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\UniStore.csproj",
         "projectName": "UniStore",
-        "projectPath": "C:\\Users\\ROMULOREISDEOLIVEIRA\\source\\repos\\UniStore\\UniStore\\UniStore.csproj",
-        "packagesPath": "C:\\Users\\ROMULOREISDEOLIVEIRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ROMULOREISDEOLIVEIRA\\source\\repos\\UniStore\\UniStore\\obj\\",
+        "projectPath": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\UniStore.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive-MSFFT\\OneDrive - MSFT\\Desktop\\Framework I\\UniStore\\UniStore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ROMULOREISDEOLIVEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -74,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
